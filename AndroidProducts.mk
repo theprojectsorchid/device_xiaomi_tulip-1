@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_tulip.mk
+    $(LOCAL_DIR)/arrow_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_tulip-user \
-    evolution_tulip-userdebug \
-    evolution_tulip-eng
+    arrow_tulip-user \
+    arrow_tulip-userdebug \
+    arrow_tulip-eng

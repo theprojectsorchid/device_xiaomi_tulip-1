@@ -313,10 +313,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePkgs
@@ -397,6 +393,11 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
@@ -424,5 +425,3 @@ PRODUCT_COPY_FILES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/tulip/tulip-vendor.mk)
 
-# Inherit the Pixel Launcher Mod
-$(call inherit-product-if-exists, vendor/PixelLauncher/PixelLauncher.mk)
